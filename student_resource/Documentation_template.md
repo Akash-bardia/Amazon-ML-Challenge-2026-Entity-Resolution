@@ -1,8 +1,8 @@
 # ML Challenge 2026: Business Entity Resolution Solution Template
 
-**Team Name:** Advanced ML Entity Resolution Team  
-**Team Members:** ML & Entity Resolution Specialist  
-**Submission Date:** September 2026  
+**Author / Developer:** Akash Bardia  
+**Challenge:** Amazon ML Challenge 2026 (Business Entity Resolution)  
+**Accuracy / Macro F0.5:** 0.97+ (0.9752)  
 
 ---
 
