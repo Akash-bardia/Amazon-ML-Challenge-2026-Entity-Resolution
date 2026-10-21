@@ -1,0 +1,58 @@
+# ==========================================
+# Git Ignore for Amazon ML Challenge 2026
+# Business Entity Resolution Pipeline
+# ==========================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+.uvpython/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Operating system / IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary / Scratch / Cache directories
+.cache/
+BACKUP/
+sample_data/
+work_sample/
+output_sample/
+
+# Large Dataset Files (TSV / CSV)
+*.tsv
+*.csv
+student_resource/dataset/
+dataset/
+
+# Submission zips and large binaries (>100MB)
+*.zip
+*.tar.gz
+*.7z
+Shannon_submission.zip
+
+# Pipeline heavy binary/intermediate artifacts
+er_pipeline/work/cand/
+er_pipeline/work/emb/
+er_pipeline/work/feat/
+er_pipeline/work/judge/
+er_pipeline/work/model/
+er_pipeline/work/prep/
+er_pipeline/work/submission/
+er_pipeline/work/logs/
+er_pipeline/output/
+*.parquet
+
+# Keep reports and json metrics
+!er_pipeline/work/reports/
+!er_pipeline/work/reports/*.json
+!er_pipeline/work/config_used.json

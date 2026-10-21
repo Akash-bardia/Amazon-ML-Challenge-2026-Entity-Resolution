@@ -1,0 +1,7 @@
+# Optional Qwen3-1.7B judge (A100 / RunPod). Python 3.10-3.12, torch with CUDA preinstalled on the RunPod PyTorch template.
+numpy
+pandas
+pyarrow
+transformers>=4.51
+peft>=0.13
+accelerate

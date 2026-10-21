@@ -1,0 +1,22 @@
+{
+  "France": {
+    "n_s1": 259452,
+    "pred_singleton_rate": 0.054657508903380975,
+    "mean_pred_per_s1": 3.3457980666944174
+  },
+  "India": {
+    "n_s1": 809986,
+    "pred_singleton_rate": 0.05946645991412197,
+    "mean_pred_per_s1": 3.272219519843553
+  },
+  "US": {
+    "n_s1": 663106,
+    "pred_singleton_rate": 0.05751569130727214,
+    "mean_pred_per_s1": 3.34081428911818
+  },
+  "ALL": {
+    "n_s1": 1732544,
+    "pred_singleton_rate": 0.057999681393372984,
+    "mean_pred_per_s1": 3.309491706992723
+  }
+}

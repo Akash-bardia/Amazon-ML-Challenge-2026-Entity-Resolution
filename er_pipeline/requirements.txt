@@ -1,0 +1,14 @@
+# Main pipeline (RTX 4050 PC), Python 3.12. These are the exact versions the pipeline was tested with.
+# Install torch FIRST with the CUDA build (see README "Setup"), then:  pip install -r requirements.txt
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+anyascii==0.3.3
+transformers==5.17.0
+tokenizers==0.23.2
+huggingface-hub==1.33.0
+safetensors==0.8.0
